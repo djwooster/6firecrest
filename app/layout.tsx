@@ -8,8 +8,8 @@ const geist = Geist({
 });
 
 export const metadata: Metadata = {
-  title: "123 Maple Street",
-  description: "3 bed · 2 bath · 1,850 sqft — A beautifully updated home.",
+  title: "6 Firecrest Ln",
+  description: "3 bed · 2.5 bath · 1,417 sqft — A beautiful home.",
   viewport: "width=device-width, initial-scale=1, maximum-scale=1",
 };
 
