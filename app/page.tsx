@@ -19,21 +19,21 @@ const property = {
 
 // ─── Gallery images ───────────────────────────────────────────────────────────
 const images = [
-  { src: "/11-web-or-mls-6%20Firecrest%2011.jpg", alt: "Photo 1" },
-  { src: "/17-web-or-mls-6%20Firecrest%2017.jpg", alt: "Photo 2" },
-  { src: "/18-web-or-mls-6%20Firecrest%2018.jpg", alt: "Photo 3" },
-  { src: "/19-web-or-mls-6%20Firecrest%2019.jpg", alt: "Photo 4" },
-  { src: "/20-web-or-mls-6%20Firecrest%2020.jpg", alt: "Photo 5" },
-  { src: "/21-web-or-mls-6%20Firecrest%2021.jpg", alt: "Photo 6" },
-  { src: "/22-web-or-mls-6%20Firecrest%2022.jpg", alt: "Photo 7" },
-  { src: "/23-web-or-mls-6%20Firecrest%2023.jpg", alt: "Photo 8" },
-  { src: "/27-web-or-mls-6%20Firecrest%2027.jpg", alt: "Photo 9" },
-  { src: "/29-web-or-mls-6%20Firecrest%2029.jpg", alt: "Photo 10" },
-  { src: "/30-web-or-mls-6%20Firecrest%2030.jpg", alt: "Photo 11" },
-  { src: "/33-web-or-mls-6%20Firecrest%2033.jpg", alt: "Photo 12" },
-  { src: "/34-web-or-mls-6%20Firecrest%2034.jpg", alt: "Photo 13" },
-  { src: "/36-web-or-mls-6%20Firecrest%2036.jpg", alt: "Photo 14" },
-  { src: "/42-web-or-mls-6%20Firecrest%2042.jpg", alt: "Photo 15" },
+  { src: "/10-(42)-web-or-mls-6%20Firecrest%2042.jpg", alt: "Photo 1" },
+  { src: "/11-web-or-mls-6%20Firecrest%2011.jpg", alt: "Photo 2" },
+  { src: "/17-web-or-mls-6%20Firecrest%2017.jpg", alt: "Photo 3" },
+  { src: "/18-web-or-mls-6%20Firecrest%2018.jpg", alt: "Photo 4" },
+  { src: "/19-web-or-mls-6%20Firecrest%2019.jpg", alt: "Photo 5" },
+  { src: "/20-web-or-mls-6%20Firecrest%2020.jpg", alt: "Photo 6" },
+  { src: "/21-web-or-mls-6%20Firecrest%2021.jpg", alt: "Photo 7" },
+  { src: "/22-web-or-mls-6%20Firecrest%2022.jpg", alt: "Photo 8" },
+  { src: "/23-web-or-mls-6%20Firecrest%2023.jpg", alt: "Photo 9" },
+  { src: "/27-web-or-mls-6%20Firecrest%2027.jpg", alt: "Photo 10" },
+  { src: "/29-web-or-mls-6%20Firecrest%2029.jpg", alt: "Photo 11" },
+  { src: "/30-web-or-mls-6%20Firecrest%2030.jpg", alt: "Photo 12" },
+  { src: "/33-web-or-mls-6%20Firecrest%2033.jpg", alt: "Photo 13" },
+  { src: "/34-web-or-mls-6%20Firecrest%2034.jpg", alt: "Photo 14" },
+  { src: "/36-web-or-mls-6%20Firecrest%2036.jpg", alt: "Photo 15" },
 ];
 
 const ease = [0.25, 0.46, 0.45, 0.94] as const;
