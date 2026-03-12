@@ -12,7 +12,7 @@ const property = {
   beds: 3,
   baths: 2.5,
   sqft: "1,417",
-  lotSize: "3,000 SQFT",
+  lotSize: "3,000",
   description: [
     "Beautifully updated and thoughtfully designed, this Laguna Audubon home in Aliso Viejo offers stylish interiors, modern upgrades, and a private backyard setting with no rear neighbors. The open and airy floor plan features soaring ceilings, abundant natural light, a designer fireplace, and French doors that open to a backyard ideal for entertaining. The fully remodeled kitchen showcases upgraded cabinetry, quartz countertops and backsplash, a granite composite under-mount sink, and brand-new stainless steel appliances. Upstairs, the spacious primary suite features vaulted ceilings, a walk-in closet, and an upgraded bathroom with dual sinks and modern fixtures, while additional bedrooms and a remodeled hall bath provide flexibility for family, guests, or a home office.",
     "The backyard retreat includes a custom BBQ island with bar seating, generous patio space, and a turfed putting green. Additional highlights include whole-house PEX repiping, brand-new double-pane modern windows throughout, enhanced lighting and electrical fixtures, and a two-car direct-access garage with new epoxy flooring, a 240-volt outlet for EV charging, and brand-new washer and dryer appliances. Located within the highly regarded Laguna Beach Unified School District and just minutes from California State Route 73 and Laguna Canyon, as well as premier shopping, dining, and scenic hiking and biking trails, this home offers an exceptional blend of comfort, style, and convenience in one of Aliso Viejo’s most desirable neighborhoods.",
@@ -55,7 +55,7 @@ export default function Home() {
     { icon: <BedIcon />, label: "Beds", value: property.beds },
     { icon: <BathIcon />, label: "Baths", value: property.baths },
     { icon: <SqftIcon />, label: "SQFT", value: property.sqft },
-    { icon: <LotIcon />, label: "Lot", value: property.lotSize },
+    { icon: <LotIcon />, label: "SQFT Lot", value: property.lotSize },
   ];
 
   return (
