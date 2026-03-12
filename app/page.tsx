@@ -14,26 +14,28 @@ const property = {
   sqft: "1,417",
   lotSize: "3,000 sqft",
   description:
-    "A beautifully updated craftsman bungalow nestled on a quiet, tree-lined street. Original hardwood floors, an open-concept kitchen with quartz countertops, and a sun-drenched backyard perfect for entertaining. Minutes from top-rated schools, local restaurants, and the park.",
+    "Beautifully updated and thoughtfully designed, this Laguna Audubon home in Aliso Viejo offers stylish interiors, modern upgrades, and a private backyard setting with no rear neighbors. The open and airy floor plan features soaring ceilings, abundant natural light, a designer fireplace, and French doors that open to a backyard ideal for entertaining. The fully remodeled kitchen showcases upgraded cabinetry, quartz countertops and backsplash, a granite composite under-mount sink, and brand-new stainless steel appliances. Upstairs, the spacious primary suite features vaulted ceilings, a walk-in closet, and an upgraded bathroom with dual sinks and modern fixtures, while additional bedrooms and a remodeled hall bath provide flexibility for family, guests, or a home office. The backyard retreat includes a custom BBQ island with bar seating, generous patio space, and a turfed putting green. Additional highlights include whole-house PEX repiping, brand-new double-pane modern windows throughout, enhanced lighting and electrical fixtures, and a two-car direct-access garage with new epoxy flooring, a 240-volt outlet for EV charging, and brand-new washer and dryer appliances. Located within the highly regarded Laguna Beach Unified School District and just minutes from California State Route 73 and Laguna Canyon, as well as premier shopping, dining, and scenic hiking and biking trails, this home offers an exceptional blend of comfort, style, and convenience in one of Aliso Viejo’s most desirable neighborhoods.",
 };
 
 // ─── Gallery images ───────────────────────────────────────────────────────────
 const images = [
-  { src: "/10-(42)-web-or-mls-6%20Firecrest%2042.jpg", alt: "Photo 1" },
-  { src: "/11-web-or-mls-6%20Firecrest%2011.jpg", alt: "Photo 2" },
-  { src: "/17-web-or-mls-6%20Firecrest%2017.jpg", alt: "Photo 3" },
-  { src: "/18-web-or-mls-6%20Firecrest%2018.jpg", alt: "Photo 4" },
-  { src: "/19-web-or-mls-6%20Firecrest%2019.jpg", alt: "Photo 5" },
-  { src: "/20-web-or-mls-6%20Firecrest%2020.jpg", alt: "Photo 6" },
-  { src: "/21-web-or-mls-6%20Firecrest%2021.jpg", alt: "Photo 7" },
-  { src: "/22-web-or-mls-6%20Firecrest%2022.jpg", alt: "Photo 8" },
-  { src: "/23-web-or-mls-6%20Firecrest%2023.jpg", alt: "Photo 9" },
-  { src: "/27-web-or-mls-6%20Firecrest%2027.jpg", alt: "Photo 10" },
-  { src: "/29-web-or-mls-6%20Firecrest%2029.jpg", alt: "Photo 11" },
-  { src: "/30-web-or-mls-6%20Firecrest%2030.jpg", alt: "Photo 12" },
+  { src: "/-1-(42)-web-or-mls-6%20Firecrest%2042.jpg", alt: "Photo 1" },
+  { src: "/00-web-or-mls-6%20Firecrest%2011.jpg", alt: "Photo 2" },
+  { src: "/1-(22)-web-or-mls-6%20Firecrest%2022.jpg", alt: "Photo 3" },
+  { src: "/2-(23)-web-or-mls-6%20Firecrest%2023.jpg", alt: "Photo 4" },
+  { src: "/3-(27)-web-or-mls-6%20Firecrest%2027.jpg", alt: "Photo 5" },
+  { src: "/4-(29)-web-or-mls-6%20Firecrest%2029.jpg", alt: "Photo 6" },
+  { src: "/5-(30)-web-or-mls-6%20Firecrest%2030.jpg", alt: "Photo 7" },
+  { src: "/17-web-or-mls-6%20Firecrest%2017.jpg", alt: "Photo 8" },
+  { src: "/18-web-or-mls-6%20Firecrest%2018.jpg", alt: "Photo 9" },
+  { src: "/19-web-or-mls-6%20Firecrest%2019.jpg", alt: "Photo 10" },
+  { src: "/20-web-or-mls-6%20Firecrest%2020.jpg", alt: "Photo 11" },
+  { src: "/21-web-or-mls-6%20Firecrest%2021.jpg", alt: "Photo 12" },
   { src: "/33-web-or-mls-6%20Firecrest%2033.jpg", alt: "Photo 13" },
   { src: "/34-web-or-mls-6%20Firecrest%2034.jpg", alt: "Photo 14" },
   { src: "/36-web-or-mls-6%20Firecrest%2036.jpg", alt: "Photo 15" },
+  { src: "/37-(2)-web-or-mls-6%20Firecrest%202.jpg", alt: "Photo 16" },
+  { src: "/38-(7)-web-or-mls-6%20Firecrest%207.jpg", alt: "Photo 17" },
 ];
 
 const ease = [0.25, 0.46, 0.45, 0.94] as const;
@@ -68,12 +70,18 @@ export default function Home() {
           </motion.h1>
 
           {/* City */}
-          <motion.p {...fadeUp(0.06)} className="text-sm font-medium text-gray-400 mt-1 uppercase tracking-widest">
+          <motion.p
+            {...fadeUp(0.06)}
+            className="text-sm font-medium text-gray-400 mt-1 uppercase tracking-widest"
+          >
             {property.address.city}
           </motion.p>
 
           {/* Stats row */}
-          <motion.div {...fadeUp(0.12)} className="flex items-center gap-0 mt-5 divide-x divide-gray-200 border border-gray-200 rounded-2xl overflow-hidden">
+          <motion.div
+            {...fadeUp(0.12)}
+            className="flex items-center gap-0 mt-5 divide-x divide-gray-200 border border-gray-200 rounded-2xl overflow-hidden"
+          >
             {stats.map((s) => (
               <div
                 key={s.label}
@@ -104,7 +112,7 @@ export default function Home() {
           </motion.h4>
           <motion.p
             {...fadeUp(0.2)}
-            className="text-gray-500 text-[15px] md:text-[17px] leading-relaxed md:max-w-[50%]"
+            className="text-gray-500 text-[15px] md:text-[17px] leading-relaxed md:max-w-[90%]"
           >
             {property.description}
           </motion.p>
