@@ -90,7 +90,7 @@ export default function Home() {
                 className="flex-1 flex flex-col items-center gap-1.5 py-4 px-1"
               >
                 <span className="text-gray-400">{s.icon}</span>
-                <span className="text-[15px] font-bold leading-none tabular-nums text-gray-950">
+                <span className="text-[12px] min-[394px]:text-[15px] font-bold leading-none tabular-nums text-gray-950">
                   {s.value}
                 </span>
                 <span className="text-[10px] text-gray-400 uppercase tracking-widest font-semibold">
